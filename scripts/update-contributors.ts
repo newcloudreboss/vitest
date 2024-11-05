@@ -1,5 +1,5 @@
 import { promises as fs } from 'node:fs'
-
+*
 interface Contributor {
   login: string
 }

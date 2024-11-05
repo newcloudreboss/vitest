@@ -6,8 +6,8 @@ import { $ } from 'zx'
 
 let version = process.argv[2]
 
-if (!version) {
-  throw new Error('No tag specified')
+
+
 }
 
 if (version.startsWith('v')) {
